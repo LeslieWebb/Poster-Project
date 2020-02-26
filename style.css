@@ -44,6 +44,10 @@ html, body{
     font-size: 100vw;
     margin: 0;
     text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
   }
   
   /* Inline #1 | file:///Users/lordonezwebb/Documents/GitHub/Poster-Project/index.html */
@@ -71,6 +75,6 @@ html, body{
   
   .title{
       grid-column-start: 1;
-      grid-column-end: 2;
-      grid-row-start: 2;
-      grid-row-end: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2;
