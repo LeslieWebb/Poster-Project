@@ -13,29 +13,29 @@ html, body{
     }
 
 body{
-  background:url(./images/25.png) , linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.8));
+  background:url(./images/25.png) , linear-gradient(to right, rgba(224, 224, 224, 0.8), rgba(224,224,224,.8));
   background-repeat: no-repeat;
   background-size:cover;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
-.two{
+/* .two{
     color:rgb(182, 0, 127);
     opacity: 80%;
-}
+} */
 
-.five{
+/* .five{
     color:rgb(0, 131, 207);
     
     
-}
+} */
 
-.two, .five{
+/* .two, .five{
     grid-column-start: 1;
     grid-column-end: -1;
     grid-row-start: 1;
     grid-row-end: -1;
-}
+} */
 
 
 .wrapper {
@@ -47,7 +47,7 @@ body{
 
 /* style.css | file:///Users/lordonezwebb/Documents/GitHub/Poster-Project/style.css */
 
-.two, .five {
+/* .two, .five {
     font-size: 100vw;
     margin: 0;
     text-align: center;
@@ -55,7 +55,7 @@ body{
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 3;
-  }
+  } */
   
   /* Inline #1 | file:///Users/lordonezwebb/Documents/GitHub/Poster-Project/index.html */
   
