@@ -43,7 +43,7 @@ body{
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(5,1fr);
-    
+    min-height: 100vh;
 }
 
 /* style.css | file:///Users/lordonezwebb/Documents/GitHub/Poster-Project/style.css */
@@ -82,47 +82,17 @@ body{
   }
   
   .title{
+      color: white;
       grid-column-start: 1;
       grid-column-end: 3;
       grid-row-start: 3;
       grid-row-end: 4;
   }
 
-  @media (min-width:426px)(min-height:739px){
+  @media (min-width:584px){
 
-    .wrapper {
-      display: grid;
-      grid-template-columns: repeat(8,1fr);
-      grid-template-rows: repeat(5,1fr);
-      
-  }
-
-  .left {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-  }
-  
-  .middle {
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 5;
-  }
-  
-  .right {
-    grid-column-start: 7;
-    grid-column-end: 9;
-    grid-row-start: 4;
-    grid-row-end: 5;
-  }
-  
-  .title{
-      grid-column-start: 1;
-      grid-column-end: 3;
-      grid-row-start: 3;
-      grid-row-end: 4;
+  .right{
+    color:white;
   }
 
 
