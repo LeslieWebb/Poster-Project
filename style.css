@@ -82,7 +82,6 @@ body{
   }
   
   .title{
-      color: white;
       grid-column-start: 1;
       grid-column-end: 3;
       grid-row-start: 3;
@@ -95,4 +94,34 @@ body{
     color:white;
   }
 }
+@media (min-width:690px){
+
+.title{
+  color:white;
+}
+
+}
+
+@media (min-width:1422px){
+
+  .title{
+    color:black;
+  }
+  
+  }
+
+  @media (max-height:813px){
+
+    .title{
+      color:white;
+    }
+    
+    }
+
+@media (min-width:1144px){
+  .left{
+    color:white;
+  }
+}
+
 
